@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3TRK</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Navigation Bar Links -->
+    <ul class="links text-light">
+      <a class="text-light" href=""
+        ><li><i class="fa-solid fa-house"></i></li
+      ></a>
+      <a class="text-light" href="#contanct"
+        ><li><i class="fa-solid fa-address-card"></i></li
+      ></a>
+
+      <li>
+        <div class="cart-big">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span>1</span>
+        </div>
+      </li>
+
+      <li class="big_shop">
+        <i class="fa-solid fa-shop shop"></i>
+
+        <!-- Dropdown Shop Menu -->
+        <ul class="links_shop">
+          <li><a href="#forMan">for man</a></li>
+          <li><a href="#forWoman">for woman</a></li>
+          <li><a href="#forUnisex">Unisex</a></li>
+          <li><a href="#forBrands">International Brands</a></li>
+          <li><a href="#Niche">Niche Perfumes</a></li>
+          <li><a href="#Arabic">Oriental & Arabic Perfumes</a></li>
+        </ul>
+      </li>
+
+      <a class="text-light" href="#footer"
+        ><li><i class="fa-solid fa-address-book"></i></li
+      ></a>
+    </ul>
+
+    <!-- Cart Sidebar -->
+    <div class="content_cart">
+      <div class="top_cart p-3 d-flex">
+        <h3>count : <span>1</span></h3>
+        <i class="fa-solid fa-circle-xmark close"></i>
+      </div>
+
+      <div class="center_cart"></div>
+
+      <div class="bottom_Cart">
+        <div class="text_total">
+          <p>total</p>
+          <p class="price_total">$0</p>
+        </div>
+        <button class="clear">مسح الكل</button>
+        <button><a href="check.html">صفحه الشراء</a></button>
+      </div>
+    </div>
+
+    <!-- Main Home Slider -->
+    <div class="swiper mainSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="imgs/COVER5.jpeg" alt="" /></div>
+        <div class="swiper-slide"><img src="imgs/COVER2.jpeg" alt="" /></div>
+        <div class="swiper-slide"><img src="imgs/COVER3.jpeg" alt="" /></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- About Section + Social Buttons -->
+    <div class="text_about text-center text-light container">
+      <p>
+        نحن مؤسسة <span>3TRK</span> المتخصصة في صناعة وتقديم العطور الفاخرة…
+        نمزج بين أجود المكوّنات وأعلى معايير الحِرفية لنقدّم لك عطورًا تترك
+        أثرًا لا يُنسى. نهتم بالتفاصيل، ونركز على الفخامة والثبات والتميز…
+        لنمنحك عطراً يعبر عن ذوقك ويرتقي بكل لحظة.
+      </p>
+
+      <div id="contanct" class="contanct">
+        <a
+          class="text-light"
+          target="_blank"
+          href="https://www.facebook.com/gokermido22?locale=ar_AR"
+        >
+          <button class="facebook">facebook</button>
+        </a>
+        <a
+          class="text-light"
+          target="_blank"
+          href="https://www.instagram.com/midofayad12/"
+        >
+          <button class="instagram">instagram</button>
+        </a>
+        <a class="text-light" target="_blank" href="https://wa.me/201018078546">
+          <button class="whatsapp">whatsapp</button>
+        </a>
+      </div>
+    </div>
+
+    <!-- All Products Section -->
+    <div class="container-fluid py-5" id="allProducts">
+      <div class="swiper productsSwiper">
+        <div class="title_section">
+          <h1>all products</h1>
+        </div>
+        <div class="swiper-wrapper swiper-wrapper-ALL"></div>
+      </div>
+    </div>
+
+    <!-- Products for Men -->
+    <div class="container-fluid py-5" id="forMan">
+      <div class="swiper productsSwiper">
+        <div class="title_section">
+          <h1>for man</h1>
+          <img width="50" src="imgs/man.png" alt="" />
+        </div>
+        <div class="swiper-wrapper swiper-wrapper-man"></div>
+      </div>
+    </div>
+
+    <!-- Products for Women -->
+    <div class="container-fluid py-5" id="forWoman">
+      <div class="swiper productsSwiper">
+        <div class="title_section">
+          <h1>for woman</h1>
+          <img width="50" src="imgs/woman.png" alt="" />
+        </div>
+        <div class="swiper-wrapper swiper-wrapper-Woman"></div>
+      </div>
+    </div>
+
+    <!-- Unisex Products -->
+    <div class="container-fluid py-5" id="forUnisex">
+      <div class="swiper productsSwiper">
+        <div class="title_section">
+          <h1>Unisex</h1>
+          <img width="50" src="imgs/woman.png" alt="" />
+        </div>
+        <div class="swiper-wrapper swiper-wrapper-Unisex"></div>
+      </div>
+    </div>
+
+    <!-- International Brands -->
+    <div class="container-fluid py-5" id="forBrands">
+      <div class="swiper productsSwiper">
+        <div class="title_section">
+          <h1>International Brands</h1>
+          <img width="50" src="imgs/woman.png" alt="" />
+        </div>
+        <div class="swiper-wrapper swiper-wrapper-International"></div>
+      </div>
+    </div>
+
+    <!-- Niche Perfumes -->
+    <div class="container-fluid py-5" id="Niche">
+      <div class="swiper productsSwiper">
+        <div class="title_section">
+          <h1>Niche Perfumes</h1>
+        </div>
+        <div class="swiper-wrapper swiper-wrapper-Niche"></div>
+      </div>
+    </div>
+
+    <!-- Arabic Perfumes -->
+    <div class="container-fluid py-5" id="Arabic">
+      <div class="swiper productsSwiper">
+        <div class="title_section">
+          <h1>Oriental & Arabic Perfumes</h1>
+        </div>
+        <div class="swiper-wrapper swiper-wrapper-Arabic"></div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer id="footer" class="bg-dark text-light pt-5 pb-4 text-center">
+      <div class="container text-md-left">
+        <div class="row text-md-left">
+          <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+              About Company
+            </h5>
+            يأتي براند العطور هذا ليجسّد جوهر الفخامة والرقيّ، حيث تمتزج فيه
+            النغمات الراقية مع لمسةٍ من الإبداع الحديث. كلّ عبوة تُصاغ بعناية
+            لتروي حكاية عطرٍ متوازنٍ بين الأصالة والجرأة، وتمنح حاملها حضورًا
+            يلفت الأنظار دون مبالغة. إنّه عالمٌ من العطور التي تُعبّر عن شخصية
+            صاحبها، وتمنحه شعورًا بالتميّز يمتدّ مع كلّ نبضةٍ من عبيرها.
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+              Quick Links
+            </h5>
+            <p><a href="index.html" class="text-light">الرئيسية</a></p>
+            <p><a href="#allProducts" class="text-light">المنتجات</a></p>
+            <p><a href="#contanct" class="text-light">اتصل بنا</a></p>
+          </div>
+
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+              Follow Us
+            </h5>
+            <a
+              href="https://www.facebook.com/gokermido22"
+              target="_blank"
+              class="text-light me-3"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/midofayad12"
+              target="_blank"
+              class="text-light me-3"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://wa.me/201018078546"
+              target="_blank"
+              class="text-light me-3"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <hr class="mb-4" />
+
+        <div class="row align-items-center">
+          <div class="col-md-7 col-lg-8">
+            <p>© 2025 جميع الحقوق محفوظة</p>
+          </div>
+
+          <div class="col-md-5 col-lg-4 text-center text-md-right">
+            <a href="#" class="text-light me-4"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="text-light me-4"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="#" class="text-light me-4"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" class="text-light me-4"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap + Swiper + JS Files -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="admin.js"></script>
+    <script src="car.js"></script>
+
+    <!-- Swiper Initialization -->
+    <script>
+      const mainSwiper = new Swiper(".mainSwiper", {
+        loop: true,
+        pagination: { el: ".swiper-pagination", dynamicBullets: true },
+        autoplay: { delay: 2000 },
+      });
+
+      const productsSwiper = new Swiper(".productsSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        breakpoints: {
+          576: { slidesPerView: 2 },
+          768: { slidesPerView: 3 },
+          992: { slidesPerView: 4 },
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "name": "Iron Mist",
+    "price": 20,
+    "oldPrice": 25.99,
+    "details": "High quality men’s fragrance.",
+    "img": "imgs/pro1.png",
+    "category": "Men"
+  },
+  {
+    "id": 2,
+    "name": "Shadow Leather",
+    "price": 30,
+    "oldPrice": 36.5,
+    "details": "Elegant men’s perfume.",
+    "img": "imgs/pro5.png",
+    "category": "Men"
+  },
+  {
+    "id": 3,
+    "name": "Black Hunter",
+    "price": 40,
+    "oldPrice": 47.25,
+    "details": "Classic masculine scent.",
+    "img": "imgs/pro6.png",
+    "category": "Men"
+  },
+  {
+    "id": 4,
+    "name": "Urban Steel",
+    "price": 50,
+    "oldPrice": 59.99,
+    "details": "Fresh and invigorating.",
+    "img": "imgs/pro7.png",
+    "category": "Men"
+  },
+  {
+    "id": 5,
+    "name": "Night Pulse",
+    "price": 55,
+    "oldPrice": 62.0,
+    "details": "Luxury men’s cologne.",
+    "img": "imgs/pro8.png",
+    "category": "Men"
+  },
+  {
+    "id": 6,
+    "name": "Rose Velvet",
+    "price": 25,
+    "oldPrice": 30.99,
+    "details": "Floral women’s perfume.",
+    "img": "imgs/pro9.png",
+    "category": "Women"
+  },
+  {
+    "id": 7,
+    "name": "Blossom Whisper",
+    "price": 35,
+    "oldPrice": 40.5,
+    "details": "Sweet and fruity fragrance.",
+    "img": "imgs/pro10.png",
+    "category": "Women"
+  },
+  {
+    "id": 8,
+    "name": "Pink Aura",
+    "price": 45,
+    "oldPrice": 50.75,
+    "details": "Classic feminine scent.",
+    "img": "imgs/pro11.png",
+    "category": "Women"
+  },
+  {
+    "id": 9,
+    "name": "Golden Bloom",
+    "price": 55,
+    "oldPrice": 60.99,
+    "details": "Luxury women’s fragrance.",
+    "img": "imgs/pro12.png",
+    "category": "Women"
+  },
+  {
+    "id": 10,
+    "name": "Silk Petals",
+    "price": 60,
+    "oldPrice": 65.0,
+    "details": "Elegant women’s perfume for special occasions.",
+    "img": "imgs/pro13.png",
+    "category": "Women"
+  },
+  {
+    "id": 11,
+    "name": "Silver Cloud",
+    "price": 28,
+    "oldPrice": 33.5,
+    "details": "Balanced unisex fragrance.",
+    "img": "imgs/pro14.png",
+    "category": "Unisex"
+  },
+  {
+    "id": 12,
+    "name": "Pure Harmony",
+    "price": 38,
+    "oldPrice": 44.25,
+    "details": "Fresh and clean scent for both genders.",
+    "img": "imgs/pro15.png",
+    "category": "Unisex"
+  },
+  {
+    "id": 13,
+    "name": "Amber Flow",
+    "price": 48,
+    "oldPrice": 53.5,
+    "details": "Soft woody unisex fragrance.",
+    "img": "imgs/pro16.png",
+    "category": "Unisex"
+  },
+  {
+    "id": 14,
+    "name": "Citrus Wood",
+    "price": 55,
+    "oldPrice": 60.75,
+    "details": "Citrus and floral blend, unisex.",
+    "img": "imgs/pro17.png",
+    "category": "Unisex"
+  },
+  {
+    "id": 15,
+    "name": "Fresh Muse",
+    "price": 60,
+    "oldPrice": 65.5,
+    "details": "Premium unisex fragrance, long-lasting.",
+    "img": "imgs/pro18.png",
+    "category": "Unisex"
+  },
+  {
+    "id": 16,
+    "name": "Imperial Noir",
+    "price": 70,
+    "oldPrice": 80.0,
+    "details": "Famous international brand perfume.",
+    "img": "imgs/pro4.png",
+    "category": "International Brands"
+  },
+  {
+    "id": 17,
+    "name": "Royal Essence",
+    "price": 75,
+    "oldPrice": 85.5,
+    "details": "Luxury designer fragrance.",
+    "img": "imgs/pro19.png",
+    "category": "International Brands"
+  },
+  {
+    "id": 18,
+    "name": "Majestic Oud",
+    "price": 80,
+    "oldPrice": 90.75,
+    "details": "Premium brand perfume.",
+    "img": "imgs/pro20.png",
+    "category": "International Brands"
+  },
+  {
+    "id": 19,
+    "name": "Velour Intense",
+    "price": 85,
+    "oldPrice": 95.0,
+    "details": "Classic international fragrance.",
+    "img": "imgs/pro21.png",
+    "category": "International Brands"
+  },
+  {
+    "id": 20,
+    "name": "Luxe Spirit",
+    "price": 90,
+    "oldPrice": 100.0,
+    "details": "High-end international perfume.",
+    "img": "imgs/pro22.png",
+    "category": "International Brands"
+  },
+  {
+    "id": 21,
+    "name": "Oud Mirage",
+    "price": 100,
+    "oldPrice": 115.0,
+    "details": "Exclusive niche fragrance.",
+    "img": "imgs/pro23.png",
+    "category": "Niche Perfumes"
+  },
+  {
+    "id": 22,
+    "name": "Cedar Ritual",
+    "price": 105,
+    "oldPrice": 120.5,
+    "details": "Premium niche scent.",
+    "img": "imgs/pro14.png",
+    "category": "Niche Perfumes"
+  },
+  {
+    "id": 23,
+    "name": "Saffron Abyss",
+    "price": 110,
+    "oldPrice": 125.75,
+    "details": "Unique sophisticated niche fragrance.",
+    "img": "imgs/pro25.png",
+    "category": "Niche Perfumes"
+  },
+  {
+    "id": 24,
+    "name": "Incense Realm",
+    "price": 115,
+    "oldPrice": 130.0,
+    "details": "Luxury niche perfume with rare ingredients.",
+    "img": "imgs/pro26.png",
+    "category": "Niche Perfumes"
+  },
+  {
+    "id": 25,
+    "name": "Mystic Resin",
+    "price": 120,
+    "oldPrice": 135.0,
+    "details": "Exclusive long-lasting niche scent.",
+    "img": "imgs/pro27.png",
+    "category": "Niche Perfumes"
+  },
+  {
+    "id": 26,
+    "name": "عود السلطان",
+    "price": 50,
+    "oldPrice": 60.0,
+    "details": "Traditional Arabic fragrance with oud.",
+    "img": "imgs/arbic2.png",
+    "category": "Arabic Perfumes"
+  },
+  {
+    "id": 27,
+    "name": "مسك العود",
+    "price": 55,
+    "oldPrice": 65.5,
+    "details": "Rich oriental scent.",
+    "img": "imgs/arbic1.png",
+    "category": "Arabic Perfumes"
+  },
+  {
+    "id": 28,
+    "name": "لمسة شرقية",
+    "price": 60,
+    "oldPrice": 70.0,
+    "details": "Classic Arabic perfume.",
+    "img": "imgs/arbic3.png",
+    "category": "Arabic Perfumes"
+  },
+  {
+    "id": 29,
+    "name": "هيبة العرب",
+    "price": 65,
+    "oldPrice": 75.5,
+    "details": "Luxury oriental scent.",
+    "img": "imgs/arbic4.png",
+    "category": "Arabic Perfumes"
+  },
+  {
+    "id": 30,
+    "name": "سرّ العود",
+    "price": 70,
+    "oldPrice": 80.0,
+    "details": "Premium Arabic fragrance with oud and musk.",
+    "img": "imgs/arbic6.png",
+    "category": "Arabic Perfumes"
+  }
+]
